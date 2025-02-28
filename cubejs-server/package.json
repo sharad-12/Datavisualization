@@ -1,0 +1,19 @@
+{
+  "name": "my-cubejs-project",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cubejs-server"
+  },
+  "template": "docker",
+  "templateVersion": "0.36.7",
+  "devDependencies": {
+    "@cubejs-backend/postgres-driver": "^0.36.7",
+    "@cubejs-backend/server": "^0.36.7"
+  },
+  "dependencies": {
+    "@cubejs-backend/native": "^0.36.8",
+    "chart.js": "^4.4.8",
+    "react-chartjs-2": "^5.3.0"
+  }
+}
